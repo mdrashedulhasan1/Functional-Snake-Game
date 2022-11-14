@@ -37,7 +37,7 @@ function gameStart() {
         inputDir = { x: 0, y: 0 };
         alert('Game over. Please press any key to play again!');
         snakeArr = [{ x: 10, y: 15 }];
-        // backgroundMusicSound.play();
+        backgroundMusicSound.play();
         score = 0;
     }
 
